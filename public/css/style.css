@@ -1,0 +1,32 @@
+.bookList
+{
+    list-style-type: none;
+}
+
+.bookList > li
+{
+    clear: both;
+}
+
+.bookList li:nth-child(odd)
+{
+    background-color: #eee;
+}
+
+.bookInfo
+{
+    float: left;
+    margin-left: 10px;
+    max-width: 350px;
+}
+
+.bookInfo h4
+{
+    margin-top: 0px;
+}
+
+.bookImg
+{
+    float: left;
+    min-width: 80px;
+}
